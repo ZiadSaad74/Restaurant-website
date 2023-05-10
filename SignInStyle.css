@@ -1,0 +1,351 @@
+html::-webkit-scrollbar {
+    width: 1.3rem;
+    height: 1.2rem;
+
+}
+
+html::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(81, 176, 214), rgb(58, 91, 104));
+}
+
+body {
+    margin: 0%;
+}
+
+.bg-img {
+    background-image: url("images/steak2.jpg");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+#logo {
+    height: 55px;
+    object-fit: cover;
+    padding-left: 140px;
+    position: relative;
+}
+
+header #section3 #main-par {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-top: 150px;
+    margin-left: 170px;
+    padding: 70px;
+    font-size: 20pt;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header #section1 {
+    height: 80px;
+}
+
+header #section1 #sec1_part1 {
+    padding-top: 22px;
+    font-family: 'Courier New', monospace;
+}
+
+header #section1 #sec1_part2 i {
+    margin-left: 20px;
+    padding-top: 30px;
+    color: rgb(58, 91, 104);
+}
+
+header #section2 {
+    background-color: rgb(44, 72, 83);
+    height: 60px;
+}
+
+header #section2 ul {
+    margin-left: 500px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+header #section2 li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
+    font-size: 17px;
+}
+
+header #section2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_logos:hover {
+    background-color: rgb(217, 215, 210);
+    border-radius: 15%;
+    padding-right: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+
+header #section3 img {
+    width: 100%;
+}
+
+header #section2 li :hover {
+    border: 1px solid white;
+    padding: 10px 30px 10px;
+    color: rgb(145, 143, 143);
+}
+
+.end {
+    background-color: rgb(44, 72, 83);
+}
+
+.endlogo {
+    margin-left: 42%;
+}
+
+.afterimage {
+    width: 50%;
+    border-width: 3px;
+}
+
+.end table {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(183, 181, 181);
+    font-family: 'Lucida Sans';
+}
+
+.end td {
+    width: 30%;
+    padding-left: 5%;
+}
+
+.end h4 {
+    color: white;
+}
+
+.end a {
+    color: rgb(145, 143, 143);
+    background-color: rgb(217, 215, 210);
+    border-radius: 10%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+}
+
+#facebook:hover {
+    background-color: rgb(59, 89, 152);
+    color: rgb(255, 255, 255);
+}
+
+#google:hover {
+    background-color: rgb(221, 75, 57);
+    color: rgb(255, 255, 255);
+}
+
+#linked:hover {
+    background-color: rgb(0, 123, 181);
+    color: rgb(255, 255, 255);
+}
+
+#twitter:hover {
+    background-color: rgb(0, 172, 237);
+    color: rgb(255, 255, 255);
+}
+
+#instagram:hover {
+    background-color: rgb(193, 53, 132);
+    color: rgb(255, 255, 255);
+}
+
+.end2 {
+    background-color: rgba(145, 143, 143, 0.49);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 450px;
+    background: #fff;
+    margin-left: 35%;
+    border: none;
+    border-radius: 5px 60px;
+    height: 700px;
+    opacity: 0.89;
+}
+
+.wrapper .title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(44, 72, 83);
+    user-select: none;
+    border-radius: 5px 60px;
+    background: white;
+    padding-top: 50px;
+    /* border-top-left-radius: 10%; */
+
+}
+
+.wrapper section {
+    padding: 20px 50px 30px 10px;
+}
+
+.wrapper section .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    padding: 20px;
+    padding-right: 5px;
+}
+
+.wrapper section .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 0px;
+    border: 1.7px solid #7b0404;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.wrapper section .field input:focus,
+section .field input:valid {
+    border-color: rgb(44, 72, 83);
+}
+
+.wrapper section .field label {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    color: rgb(44, 72, 83);
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.5s ease;
+}
+
+section .field input:focus ~ label,
+section .field input:valid ~ label {
+    top: 0%;
+    font-size: 16px;
+    color: #7b0404;
+    background: #fff;
+    transform: translateY(-50%);
+}
+
+section .content {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .content .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    margin-left: 25px;
+}
+
+section .content label {
+    color: #262626;
+    user-select: none;
+    padding-left: 1px;
+
+}
+
+/* section .content .pass-link{
+  color: "red";
+  padding-top: 10px;
+  margin-top: 300px;
+
+} */
+section .field input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, rgb(44, 72, 83), rgb(71, 105, 118));
+    transition: all 0.3s ease;
+    padding-top: 5px;
+
+}
+
+.btn {
+    background-color: rgb(44, 72, 83);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 70px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-left: 118px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #ac0202;
+    color: white;
+}
+
+.signup-link {
+    color: #262626;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+
+section .pass-link a,
+section .signup-link a {
+    color: #1215c1;
+    text-decoration: none;
+}
+
+section .pass-link {
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+section .pass-link a:hover,
+section .signup-link a:hover {
+    text-decoration: underline;
+}
+
+#error-msg {
+    padding-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+}

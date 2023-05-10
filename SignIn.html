@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Sign In </title>
+        <link rel="stylesheet" href="SignInStyle.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script>
+            function welcome(){
+                alert("Welcome back !")
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="section1" class="container">
+                <div id="sec1_part1">
+                    500 Terry Francois St.<br>
+                    San Francisco, CA 94158.
+                </div>
+                <div id="sec1_part2">
+                    <a class="contact_logos" href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook icon-primary"></i></a>
+                    <a class="contact_logos" href="https://www.google.com/search?client=firefox-b-d&q=google+plus" target="blank"><i class="fa fa fa-google-plus-g"></i></a>
+                    <a class="contact_logos" href="https://www.instagram.com/" target="blank"><i class="fa fa fa-instagram"></i></a>
+                    <a class="contact_logos" href="https://www.google.com/search?client=firefox-b-d&q=twitter" target="blank"><i class="fa fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div id="section2" class="container">
+               <img src="images/invert-logo-header.png" alt="logo" id="logo">
+               <nav>
+                   <ul>
+                       <li><a href="Home.html">Home</a></li>
+                       <li><a href="contact us.html">Contact</a></li>
+                       <li><a href="SignIn.html" target="_self">Sign in</a></li>
+                       <li><a href="SignUp.html">Sign up</a></li>
+                       <li><a href="chefs.html">Chefs</a></li>
+                       <li><a href="Home_menu.html">menu</a></li>
+                   </ul>
+               </nav>
+            </div> 
+        </header> 
+        
+        <div class="bg-img">
+        <div class="wrapper">
+            <div class="title">
+               Sign in
+            </div>
+            <section>
+                <div class="field">
+                  <input type="text" id="email" required>
+                  <label for="email">Email Address</label>
+               </div>
+               <div class="field">
+                  <input type="password" id="password" required>
+                  <label for="password">Password</label>
+               </div>
+               <div class="content">
+                  <div class="checkbox">
+                     <input type="checkbox" id="remember-me">
+                     <label for="remember-me">Remember me</label>
+                  </div>
+                  
+               </div>
+               <!-- <div class="field">
+                  <input type="submit" value="Sign in">
+               </div> -->
+               <button class="btn" id="signin-btn" >sign in</button>
+                <h3 id="error-msg"></h3>
+
+                <div class="pass-link">
+                <a >Forgot password?</a>
+             </div>
+               <div class="signup-link">
+                  Not a member? <a href="SignUp.html">Sign up now</a>
+               </div>
+            </section>
+         </div>
+        </div>
+  
+        <footer>
+            <div class="end">
+                <img class="endlogo" src="images/invert-logo-header.png">
+                <hr class="afterimage">
+                <table>
+                    <tr>
+                        <td>
+                            <h4>GROUP BOOKINGS</h4>
+                            <p>Reservations of 15 or more adults are required to order from one of our 'trust us' set menus. Please get in touch with us to find out more and to reserve a table.</p>
+                            <p>Reservations for groups of 15 or more adults can be made any time throughout the day.</p>
+                        </td>
+                        <td>
+                            <h4>OPINING HOURS</h4>
+                            <ul>
+                                <li class="list">Monday 10AM - 9PM</li><hr>
+                                <li class="list">Tuesday 10AM - 9PM</li><hr>
+                                <li class="list">Wednesday 10AM - 9PM</li><hr>
+                                <li class="list">Thursday 10AM - 10PM</li><hr>
+                                <li class="list">Friday 10AM - 10PM</li><hr>
+                                <li class="list">Weekends 10AM - 11PM</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <h4>FOLLOW US</h4>
+                            <hr>
+                            <p>See more about us on social media</p>
+                            <a id="facebook" href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook icon-primary"></i></a>
+                            <a id="google" href="https://www.google.com/search?client=firefox-b-d&q=google+plus" target="blank"><i class="fa fa fa-google-plus-g"></i></a>
+                            <a id="linked" href="https://www.linkedin.com/jobs/view/2600923484/" target="blank"><i class="fa fa fa-linkedin-in"></i></a>
+                            <a id="twitter" href="https://www.google.com/search?client=firefox-b-d&q=twitter" target="blank"><i class="fa fa fa-twitter"></i></a>
+                            <a id="instagram" href="https://www.instagram.com/" target="blank"><i class="fa fa fa-instagram"></i></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="end2">
+                <p>copyright © GiarDino 2022. All Right Reserved</p>
+            </div>
+        </footer>
+
+
+        <script src="signInHandler.js">
+        </script>
+    </body>
+</html>

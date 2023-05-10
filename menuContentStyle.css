@@ -1,0 +1,134 @@
+html::-webkit-scrollbar{
+    width:1.3rem;
+    height: 0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(81, 176, 214),rgb(58, 91, 104));
+}
+.main {
+    width: 1170px;
+    margin: 100px auto;
+
+}
+
+header #section3 #main-par{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-top: 100px;
+    margin-right: 500px;
+    padding: 70px;
+    font-size: 20pt;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+
+header #section3 img{
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.section-title h2 {
+    padding: 0 0 20px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2:before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 5px;
+    background-color: rgb(44, 72, 83);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menus {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(44, 72, 83);
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-column h3 {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.908);
+    text-decoration: double;
+    padding: 10px 5px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.menu-column h5 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 24px;
+    font-weight: 50;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.menu-column h5:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.row img {
+    border-radius: 50%;
+    max-width: 190px;
+    border: 3px groove #ddd;
+    padding: 3px;
+    transition: 1s;
+}
+
+.row:hover img {
+    transform: rotate(360deg);
+}
+
+.row .row-content h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.row .row-content h5 span {
+    color: rgb(249, 255, 71);
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
